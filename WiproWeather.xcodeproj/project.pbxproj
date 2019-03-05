@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F08794C222AC4380048543B /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		6F29D96C222DB30600A6E177 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F3B07742226C9CE0036D68C /* WiproWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3B07772226C9CE0036D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F3B07792226C9CE0036D68C /* WeatherPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPageViewController.swift; sourceTree = "<group>"; };
@@ -30,8 +30,6 @@
 		6F3B07832226CAFF0036D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F85A7AE2227056F00879219 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		6F85A7B322270AC100879219 /* WeatherModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModelController.swift; sourceTree = "<group>"; };
-		6F85A7BA2227337700879219 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		6F85A7BC2227338B00879219 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		6F9F8FDE22286EC4008549DA /* WeatherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherItem.swift; sourceTree = "<group>"; };
 		6FF29F8E2229972E00546968 /* WeatherPageDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPageDatasource.swift; sourceTree = "<group>"; };
 		6FF29F90222999D600546968 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +78,8 @@
 		6F3B076B2226C9C80036D68C = {
 			isa = PBXGroup;
 			children = (
+				6F29D96C222DB30600A6E177 /* README.md */,
 				6F85A7AE2227056F00879219 /* Cartfile */,
-				6F08794C222AC4380048543B /* AlamofireImage.framework */,
 				6F3B07762226C9CE0036D68C /* WiproWeather */,
 				6F3B07752226C9CE0036D68C /* Products */,
 				6F85A7B02227087700879219 /* Frameworks */,
@@ -111,8 +109,6 @@
 		6F85A7B02227087700879219 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F85A7BC2227338B00879219 /* Alamofire.framework */,
-				6F85A7BA2227337700879219 /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

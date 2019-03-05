@@ -10,8 +10,17 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
+enum EnvironmentVariables: String {
+    case APIKey
+    
+    var value: String {
+        let v = ProcessInfo.processInfo.environment[rawValue]
+        return v ?? ""
+    }
+}
+
 class WeatherModelController {
-    private let APIKey = "99423cba71dcb3f60ac004d8d3cbf2a3"
+    private let APIKey = EnvironmentVariables.APIKey.value
     private var weatherData = [WeatherItem]()
     
     func getWeatherData(for cityCountry: String, onCompletion: @escaping ([WeatherItem]?) -> Void) {
